@@ -1,0 +1,12 @@
+file_format: "1"
+id: cncremote
+name: cncremote
+type: shield
+url: https://mechwild.com/product/cncremote/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
